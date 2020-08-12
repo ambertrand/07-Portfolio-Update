@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    margin: 0, auto;
+}
+
+.sub-container {
+    background-color:#ffffff;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+h2 {
+    color: #4179e1;
+}
+
+img.float-left {
+    margin: 20px;
+}
+
+img.card-image-top {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+a.btn {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    
+}
+
+footer{
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color:#4179e1;
+    
+}
+
+div.footer-margin {
+    height: 100px;
+}
+
+footer p {
+    color:#ffffff;
+    text-align: center;
+    height: 10px;
+    margin-bottom: 0px;
+    padding: 50px;
+}
