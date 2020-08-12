@@ -8,25 +8,36 @@ body {
     margin: 0, auto;
 }
 
-.sub-container {
+h1 {
+    margin: 20px;
+}
+
+ul.nav {
+    margin: 20px;
+}
+
+section.row {
     background-color:#ffffff;
-    padding: 20px;
-    margin: 20px 10px;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 h2 {
     color: #4179e1;
+    padding: 10px;
 }
 
 img.float-left {
-    margin: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
 }
 
-img.card-image-top {
+/* img.card-image-top {
     width: 100%;
     height: auto;
     position: relative;
-}
+} */
 
 a.btn {
     position: absolute;
@@ -35,22 +46,7 @@ a.btn {
     
 }
 
-footer{
-    width: 100%;
-    border-top-style: solid;
-    border-top-width: 10px;
-    border-top-color:#4179e1;
-    
-}
-
-div.footer-margin {
-    height: 100px;
-}
-
 footer p {
-    color:#ffffff;
-    text-align: center;
-    height: 10px;
-    margin-bottom: 0px;
-    padding: 50px;
+    columns: #000000;
+    margin: 20px;
 }
