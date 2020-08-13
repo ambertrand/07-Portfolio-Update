@@ -24,19 +24,11 @@ h5 {
     color: #4179e1;
 }
 
-ul.nav {
-    margin: 20px;
-}
-
 section {
-    background-color:#ffffff;
-    margin: 40px;
-    padding: 10px;
     border-radius: 10px;
 }
 
 img.float-left {
-    margin-right: 20px;
     border-radius: 5px;
 }
 
@@ -48,11 +40,6 @@ div.card {
     font-size: medium;
 
 }
-/* img.card-image-top {
-    width: 100%;
-    height: auto;
-    position: relative;
-} */
 
 footer p {
     columns: #000000;
