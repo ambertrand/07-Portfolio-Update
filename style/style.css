@@ -8,28 +8,31 @@ body {
     margin: 0, auto;
 }
 
-h1 {
-    margin: 20px;
+h2 {
+    color: #4179e1;
+}
+
+h3 {
+    color:#4179e1 ;
+}
+
+h4 {
+    color: #4179e1;
+}
+
+h5 {
+    color: #4179e1;
 }
 
 ul.nav {
     margin: 20px;
 }
 
-section.row {
+section {
     background-color:#ffffff;
     margin: 40px;
     padding: 10px;
     border-radius: 10px;
-}
-
-h2 {
-    color: #4179e1;
-    /* padding: 10px; */
-}
-
-h3 {
-    color:#4179e1 ;
 }
 
 img.float-left {
@@ -37,6 +40,14 @@ img.float-left {
     border-radius: 5px;
 }
 
+div.card {
+    border-radius: 5px;
+}
+
+.card-text {
+    font-size: medium;
+
+}
 /* img.card-image-top {
     width: 100%;
     height: auto;

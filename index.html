@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Alex's Portfolio</title>
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -15,12 +15,12 @@
 </head>
 
 
-<body>
+<body class="d-flex flex-column h-100">
     <!-- Navigation bar -->
     <div class="container-fluid">
         <header class="row bg-white">
             <div class="col-sm-12 col-md-3" style="background-color: #4179e1;">
-                <h1 class="text-white text-center">Alexander M. Bertrand</h1>
+                <h1 class="text-white text-center m-3">Alexander M. Bertrand</h1>
             </div>
 
             <!-- Navigation list -->
@@ -63,12 +63,37 @@
                     <div class="col-12">
                         <h3 class="m-3">Find Me On:</h3>
                     </div>
-                    <div class="col-sm-6 col-md-2">
+                    <div class="col-sm-6 col-md-3">
                         <a class="linkedin fa fa-linkedin-square fa-4x"
                             href="https://www.linkedin.com/in/alex-bertrand/" target="_blank"></a>
                     </div>
-                    <div class="col-sm-6 col-md-2">
+                    <div class="col-sm-6 col-md-3">
                         <a class="fa fa-github fa-4x" href="https://github.com/ambertrand" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-10">
+                    <h2 class="p-3">Portfolio</h2>
+                </div>
+                <div class="card bg-light h-100 m-3">
+                    <img src="https://media.giphy.com/media/Vh9PHybWF4VsakZqi2/giphy.gif" alt="MyCovidTracker">
+                    <div class="card-body col-sm-12 col-md-10">
+                        <h4>MyCovidTracker</h4>
+                        <p class="card-text">Your one stop shop for all news and statistics on COVID-19!</p>
+                        <h5>Technologies Used</h5>
+                        <ul>
+                            <li class="card-text">Basic: HTML, CSS, Javascript </li>
+                            <li class="card-text">Materialize</li>
+                            <li class="card-text">JQuery</li>
+                            <li class="card-text">NY Times, Coronavirus COVID-19 API's</li>
+                        </ul>
+                        <a href="https://cjlaflamme1.github.io/MyCovidTracker/" target="_blank"
+                                class="btn btn-primary">View Deployment</a>
+                        <a href="https://github.com/cjlaflamme1/MyCovidTracker" target="_blank" class="btn btn-primary">View Code</a>
                     </div>
                 </div>
             </div>
@@ -77,7 +102,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="navbar fixed-bottom bg-white justify-content-center">
+        <div class="navbar relative-bottom bg-white justify-content-center">
             <p><strong>Alex Bertrand | &copy; Copyright 2020</strong></p>
         </div>
     </footer>
